@@ -7,20 +7,27 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.0",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.4.1",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
-    "tailwindcss": "^1.1.4"
+    "react-scripts": "3.3.0"
   },
   "scripts": {
-    "tailwind:css": "tailwind build src/css/tailwind.src.css -c  tailwind.js -o src/css/tailwind.css",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "npm-run-all --parallel watch:css start:react",
+    "build": "npm-run-all build:css build:react",
+    "start:react": "react-scripts start",
+    "build:css": "postcss src/tailwind.css -o src/index.css",
+    "build:react": "react-scripts build",
+    "watch:css": "postcss src/tailwind.css -o src/index.css -w",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "homepage": "https://zaki1001.github.io/React/"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +43,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.4"
   }
 }

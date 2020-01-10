@@ -144,7 +144,7 @@ class App extends Component {
 
             </nav>
             <div className="hero hero-landing left-align pl-12 m-7 pt-15 sm:pr-5 sm:mr-5   ">
-              <div className="col s6 white-text  py-16 px-20  "><h1 className=" px-15 caption mr-16 sm:text-center" style={{ borderBottom: "solid 2px rgba(255, 255, 255, 0.125)" }}>Zakiuddin Syed</h1><h5 className="cv">Full Stack Developer</h5></div></div>
+              <div className="col s6 white-text  py-16 px-20  "><h1 className=" px-15 text-5xl caption mr-16 sm:text-center" style={{ borderBottom: "solid 2px rgba(255, 255, 255, 0.125)" }}>Zakiuddin Syed</h1><h5 className="cv text-4xl">Full Stack Developer</h5></div></div>
 
 
 
@@ -162,7 +162,7 @@ class App extends Component {
             <div class="inner">
               <a href="#" class="image"><img src={zaki} ></img></a>
               <div class="content white-text">
-                <h2 class="major " >Zakiuddin Syed</h2>
+                <h2 class="major  text-4xl" >Zakiuddin Syed</h2>
                 <p className="left-align">"I am a <strong classname="font-bold">Full stack Web Developer</strong> with MSc in Computer and Automation Engineering and first degree in
 Mechanical Engineer. With assiduous attitude and agile mindset, I am passionate to learn and explore
 my skills in the field of  <strong classname="font-bold"> Full stack web development</strong>."</p>
@@ -172,16 +172,16 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
 
           </section>
 
-          <div className="cvv"><h2 className="white-text center major " >Education</h2></div>
+          <div className="cvv"><h2 className="white-text center major  text-3xl " >Education</h2></div>
 
           <section id="two" class="wrapper alt spotlight style2" style={{ background: " linear-gradient(50deg, rgba(255,255,255,1) 5%, rgba(38,58,97,1) 35%, rgba(69,85,110,1) 69%)" }}>
 
             <div class="inner">
               <a href="#" class="image"><img src={unisi} ></img></a>
               <div class="content">
-                <h3 class="major">
+                <h3 class="major text-5xl">
                   Università degli Studi di Siena</h3>
-                <span class="major white-text">Master's Degree,Computer and Automation engineering<br></br>2016-Present</span>
+                <span class="major white-text text-2xl">Master's Degree,Computer and Automation engineering<br></br>2016-Present</span>
 
                 <p className="white-text">1. Acquired a better understanding of machine learning and Data Analysis.<br></br>
                   2. It has improved my python programming and Matlab skills a lot.<br></br>
@@ -202,9 +202,9 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
             <div class="inner">
               <a href="#" class="image"><img src={ou} ></img></a>
               <div class="content">
-                <h3 class="major">
+                <h3 class="major text-5xl">
                   Osmania University</h3>
-                <span class="major white-text">Bachelors's Degree,Mechanical engineering<br></br>2016-Present</span>
+                <span class="major white-text text-2xl">Bachelors's Degree,Mechanical engineering<br></br>2016-Present</span>
 
                 <p className="white-text">1. I honed my professional skills during my bachelors in Auto cad and Solid
                                     Works<br></br>
@@ -222,19 +222,19 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
           </section>
           <section class="wrapper" >
             <div class="inner">
-              <h2 class="major">E-Certificates
+              <h2 class="major text-5xl">E-Certificates
 </h2>
-              <h5 className="major">The Complete Web Developer in 2020: Zero to Mastery </h5>
+              <h5 className="major text-2xl">The Complete Web Developer in 2020: Zero to Mastery </h5>
               <p className="white-text">Issued by:<strong>Udemy</strong><br></br>Issued on:<strong>Dec 2019</strong><br></br>Credentials:<strong>UC-64KJZOOW</strong><br></br><a href="#" class="special">Learn more</a></p>
 
-              <h5 className="major">Complete Python Bootcamp: Go from zero to hero in Python 3 </h5>
+              <h5 className="major text-2xl">Complete Python Bootcamp: Go from zero to hero in Python 3 </h5>
               <p className="white-text">Issued by:<strong>Udemy</strong><br></br>Issued on:<strong>June 2019</strong><br></br>Credentials:<strong>UC-C40TJ20T</strong><br></br><a href="#" class="special">Learn more</a></p>
             </div></section>
-          <section id="four" class="wrapper alt style1">
+          <section id="four" class="wrapper alt style1" style={{ background: " linear-gradient(50deg, rgba(255,255,255,1) 5%, rgba(38,58,97,1) 35%, rgba(69,85,110,1) 69%)" }}>
 
-            <div class="inner px-64  py-8" style={{ background: " linear-gradient(50deg, rgba(255,255,255,1) 5%, rgba(38,58,97,1) 35%, rgba(69,85,110,1) 69%)" }}>
+            <div class="inner px-64  py-5" >
               <div class="inner">
-                <h2 class="major">Experience</h2><h5 className="major ">Freelance at PeoplePerHour<p className="text-base">March-2019-April-2019</p></h5>
+                <h2 class="major text-5xl">Experience</h2><h5 className="major ">Freelance at PeoplePerHour<p className="text-base">March-2019-April-2019</p></h5>
                 <p className="white-text">Hotel Data Analysis and Management<br></br>1.Data Manipulation using pandas, datetime and regex<br></br>
 
                   2.Sorting the data into High season and low season based on the time period<br></br>
@@ -328,14 +328,14 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
 
           <section id="one" class="wrapper spotlight style1 " style={{ background: "linear-gradient(50deg, rgba(38,58,97,1) 13%, rgba(69,85,110,1) 69%, rgba(255,255,255,1) 95%)" }}>
             <div class=" px-16 py-24  " >
-              <h3 class="major ">Academic Projects and Reasearch </h3><br></br><h5 className="major ">Image Classifier using Tensor flow and Keras:<p className="text-base">June-2019</p></h5>
+              <h3 class="major text-5xl ">Academic Projects and Reasearch </h3><br></br><h5 className="major text-2xl ">Image Classifier using Tensor flow and Keras:<p className="text-base">June-2019</p></h5>
               <p className="white-text">This is an image classification python program using tensor flow and keras. I have extensively used
 a classifier for classifying two classes Using jquery<br></br>
 
 
               </p><button class=" block uppercase mx-auto shadow sm-auto hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded left-align"><a className="text-white " href={'https://www.github.com/zaki1001/Image-classification-using-tensor-flow-and-keras'}
                 target="_blank">Github link</a></button>
-              <h5 className="major ">The Movie Database using React.js<p className="text-base">Oct-2019</p></h5>
+              <h5 className="major text-2xl ">The Movie Database using React.js<p className="text-base">Oct-2019</p></h5>
               <p className="white-text">Using The movie database api i created a search bar and when you type whatever the movie required the api would hit the specific movie and render it onto the screen <br></br>
 
 

@@ -19,6 +19,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "npm-run-all --parallel watch:css start:react",
     "build": "npm-run-all build:css build:react",
     "start:react": "react-scripts start",

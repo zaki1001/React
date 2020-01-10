@@ -143,8 +143,8 @@ class App extends Component {
                 </ul></div></div></div></div>
 
             </nav>
-            <div className="hero hero-landing left-align pl-12 m-7 pt-15   ">
-              <div className="col s6 white-text  py-16 px-20  "><h1 className=" px-15 caption mr-16" style={{ borderBottom: "solid 2px rgba(255, 255, 255, 0.125)" }}>Zakiuddin Syed</h1><h5 className="cv">Full Stack Developer</h5></div></div>
+            <div className="hero hero-landing left-align pl-12 m-7 pt-15 sm:pr-5 sm:mr-5   ">
+              <div className="col s6 white-text  py-16 px-20  "><h1 className=" px-15 caption mr-16 sm:text-center" style={{ borderBottom: "solid 2px rgba(255, 255, 255, 0.125)" }}>Zakiuddin Syed</h1><h5 className="cv">Full Stack Developer</h5></div></div>
 
 
 
@@ -230,15 +230,20 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
               <h5 className="major">Complete Python Bootcamp: Go from zero to hero in Python 3 </h5>
               <p className="white-text">Issued by:<strong>Udemy</strong><br></br>Issued on:<strong>June 2019</strong><br></br>Credentials:<strong>UC-C40TJ20T</strong><br></br><a href="#" class="special">Learn more</a></p>
             </div></section>
-          <div class="inner px-64  py-8" style={{ background: " linear-gradient(50deg, rgba(255,255,255,1) 5%, rgba(38,58,97,1) 35%, rgba(69,85,110,1) 69%)" }}>
-            <h2 class="major">Experience</h2><h5 className="major ">Freelance at PeoplePerHour<p className="text-base">March-2019-April-2019</p></h5>
-            <p className="white-text">Hotel Data Analysis and Management<br></br>1.Data Manipulation using pandas, datetime and regex<br></br>
+          <section id="four" class="wrapper alt style1">
 
-              2.Sorting the data into High season and low season based on the time period<br></br>
+            <div class="inner px-64  py-8" style={{ background: " linear-gradient(50deg, rgba(255,255,255,1) 5%, rgba(38,58,97,1) 35%, rgba(69,85,110,1) 69%)" }}>
+              <div class="inner">
+                <h2 class="major">Experience</h2><h5 className="major ">Freelance at PeoplePerHour<p className="text-base">March-2019-April-2019</p></h5>
+                <p className="white-text">Hotel Data Analysis and Management<br></br>1.Data Manipulation using pandas, datetime and regex<br></br>
 
-              3.Removing the dates from the system<br></br>
+                  2.Sorting the data into High season and low season based on the time period<br></br>
 
-              4.Analysing the price based on the data and season</p></div>
+                  3.Removing the dates from the system<br></br>
+
+                  4.Analysing the price based on the data and season</p></div>
+            </div>
+          </section>
 
 
 
@@ -319,21 +324,25 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
             </div>
           </section>
         </section>
-        <div class="inner px-64  py-8" style={{ background: "linear-gradient(50deg, rgba(38,58,97,1) 13%, rgba(69,85,110,1) 69%, rgba(255,255,255,1) 95%)" }}>
-          <h3 class="major ">Academic Projects and Reasearch </h3><br></br><h5 className="major ">Image Classifier using Tensor flow and Keras:<p className="text-base">June-2019</p></h5>
-          <p className="white-text">This is an image classification python program using tensor flow and keras. I have extensively used
+        <section id="wrapper">
+
+          <section id="one" class="wrapper spotlight style1 " style={{ background: "linear-gradient(50deg, rgba(38,58,97,1) 13%, rgba(69,85,110,1) 69%, rgba(255,255,255,1) 95%)" }}>
+            <div class=" px-16 py-24  " >
+              <h3 class="major ">Academic Projects and Reasearch </h3><br></br><h5 className="major ">Image Classifier using Tensor flow and Keras:<p className="text-base">June-2019</p></h5>
+              <p className="white-text">This is an image classification python program using tensor flow and keras. I have extensively used
 a classifier for classifying two classes Using jquery<br></br>
 
 
-          </p><button class=" block uppercase mx-auto shadow  hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded left-align"><a className="text-white " href={'https://www.github.com/zaki1001/Image-classification-using-tensor-flow-and-keras'}
-            target="_blank">Github link</a></button>
-          <h5 className="major ">The Movie Database using React.js<p className="text-base">Oct-2019</p></h5>
-          <p className="white-text">Using The movie database api i created a search bar and when you type whatever the movie required the api would hit the specific movie and render it onto the screen <br></br>
+              </p><button class=" block uppercase mx-auto shadow sm-auto hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded left-align"><a className="text-white " href={'https://www.github.com/zaki1001/Image-classification-using-tensor-flow-and-keras'}
+                target="_blank">Github link</a></button>
+              <h5 className="major ">The Movie Database using React.js<p className="text-base">Oct-2019</p></h5>
+              <p className="white-text">Using The movie database api i created a search bar and when you type whatever the movie required the api would hit the specific movie and render it onto the screen <br></br>
 
 
-          </p><button class=" block uppercase mx-auto shadow  hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded left-align"><a className="text-white " href={'https://www.github.com/zaki1001/'}
-            target="_blank">Github link</a></button></div>
-
+              </p><button class=" block uppercase mx-auto shadow  hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white text-xs py-3 px-10 rounded left-align"><a className="text-white " href={'https://www.github.com/zaki1001/'}
+                target="_blank">Github link</a></button></div>
+          </section>
+        </section>
 
         <section id="footer" style={{ background: "linear-gradient(50deg, rgba(52,68,93,1) 0%, rgba(67,89,122,1) 99%, rgba(255,255,255,1) 100%)" }}>
           <div class="inner flex ">

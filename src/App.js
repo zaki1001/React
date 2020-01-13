@@ -144,7 +144,7 @@ class App extends Component {
 
             </nav>
             <div className="hero hero-landing left-align pl-12 m-7 pt-15 sm:pr-5 sm:mr-5   ">
-              <div className="col s6 white-text  py-16 px-20  "><h1 className=" px-15 text-5xl caption mr-16 sm:text-center" style={{ borderBottom: "solid 2px rgba(255, 255, 255, 0.125)" }}>Zakiuddin Syed</h1><h5 className="cv text-4xl">Full Stack Developer</h5></div></div>
+              <div className="col s6 white-text  py-16 px-20  "><h1 className=" px-15 text-5xl caption mr-16" style={{ borderBottom: "solid 2px rgba(255, 255, 255, 0.125)" }}>Zakiuddin Syed</h1><h5 className="cv text-4xl">Full Stack Developer</h5></div></div>
 
 
 
@@ -172,7 +172,7 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
 
           </section>
 
-          <div className="cvv"><h2 className="white-text center major  text-3xl " >Education</h2></div>
+          <div className="cvv white-text center   text-3xl"><h2 className=" major  " >Education</h2></div>
 
           <section id="two" class="wrapper alt spotlight style2" style={{ background: " linear-gradient(50deg, rgba(255,255,255,1) 5%, rgba(38,58,97,1) 35%, rgba(69,85,110,1) 69%)" }}>
 

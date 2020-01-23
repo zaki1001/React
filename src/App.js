@@ -234,7 +234,7 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
 
             <div class="inner px-64  py-5" >
               <div class="inner">
-                <h2 class="major text-5xl">Experience</h2><h5 className="major ">Freelance for Frenn Ltd<p className="text-base">March-2019-April-2019</p></h5>
+                <h2 class="major text-5xl">Experience</h2><h5 className="major ">Freelance for Frenn Ltd<p className="text-base">June-2019-November-2019</p></h5>
                 <p className="white-text">Hotel Data Analysis and Management<br></br>1.Using React.js and Redux for web app development<br></br>
 
                   2.Brief Understanding of Restful Api <br></br>

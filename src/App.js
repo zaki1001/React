@@ -234,14 +234,14 @@ my skills in the field of  <strong classname="font-bold"> Full stack web develop
 
             <div class="inner px-64  py-5" >
               <div class="inner">
-                <h2 class="major text-5xl">Experience</h2><h5 className="major ">Freelance at PeoplePerHour<p className="text-base">March-2019-April-2019</p></h5>
-                <p className="white-text">Hotel Data Analysis and Management<br></br>1.Data Manipulation using pandas, datetime and regex<br></br>
+                <h2 class="major text-5xl">Experience</h2><h5 className="major ">Freelance for Frenn Ltd<p className="text-base">March-2019-April-2019</p></h5>
+                <p className="white-text">Hotel Data Analysis and Management<br></br>1.Using React.js and Redux for web app development<br></br>
 
-                  2.Sorting the data into High season and low season based on the time period<br></br>
+                  2.Brief Understanding of Restful Api <br></br>
 
-                  3.Removing the dates from the system<br></br>
+                  3.Better understanding of Node.js as for restful api and Database Management<br></br>
 
-                  4.Analysing the price based on the data and season</p></div>
+                  4.Data analysis using Python</p></div>
             </div>
           </section>
 
